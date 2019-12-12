@@ -1,0 +1,8 @@
+$fonts: (
+  body: "georgia",
+  headline: "arial"
+);
+
+@function font($name) {
+  @return map-get($fonts, $name);
+}

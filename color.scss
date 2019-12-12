@@ -1,0 +1,12 @@
+$colors: (
+  primary: #333,
+  secondary: #333,
+  tertiary: #333,
+  quaternary: #333,
+  light: #333333,
+  dark: #333
+);
+
+@function color($name) {
+  @return map-get($colors, $name);
+}
